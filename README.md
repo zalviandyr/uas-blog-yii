@@ -21,6 +21,16 @@
     > php init
     ```
 
+-   Open **main-local** in `common/config`, to setting database
+    ```php
+    'db' => [
+        'class' => 'yii\db\Connection',
+        'dsn' => 'mysql:host=localhost;dbname=<your_database>',
+        'username' => 'root',
+        'password' => '',
+        'charset' => 'utf8',
+    ],
+    ```
 -   Migrate database
     ```bash
     > php yii migrate
