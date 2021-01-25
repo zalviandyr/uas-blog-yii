@@ -87,6 +87,7 @@
     ```
 
 -   Maka jika kita mengakses halaman utama akan seperti ini
+
     ![homepage](img/15.PNG)
 
 ## Modifikasi halaman utama - Top Berita
@@ -273,4 +274,5 @@
     ```
 
 -   Maka jika kita melihat detail dari salah satu berita akan tampil seperti berikut
+
     ![detail berita](img/16.PNG)

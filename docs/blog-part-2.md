@@ -68,6 +68,7 @@
     ```
 
 -   Maka jika kita mengakses `site/signup` akan tampil seperti ini
+
     ![signup page](img/8.PNG)
 
 ## Mengedit footer
@@ -88,4 +89,5 @@
     ```
 
 -   Maka untuk bagian footer akan berubah menjadi seperti ini
+
     ![footer image](img/9.PNG)

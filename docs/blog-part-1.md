@@ -175,16 +175,21 @@
     > php yii migrate
     ```
 -   Jika berhasil migrasi akan muncul seperti ini
-    ![image migrate](img/17.PNG)
+
+    ![image migrate](img/17.png)
+
 -   Maka semua file migrasi yang telah dibuat akan menjadi tabel-tabel di database
 -   Berikut hasil dari ERD yang di generate otomatis menggunakan **Data Grip**
+
     ![erd](img/uas_blog.png)
 
 ## Membuat model menggunakan GII
 
 -   Buka browser dan akses `/gii` dan pilih **Model Generator**
 -   Buat model **Berita**
+
     ![model berita](img/1.PNG)
+
 -   Setelah model berita dibuat, kita lakukan sedikit modifikasi pada model **Berita** di `common/models`
 -   Hapus line berikut
     ```php
@@ -200,19 +205,28 @@
     ```
 
 -   Buat model **Kategori**
+
     ![model kategori](img/2.PNG)
 
 -   Buat model **Komentar**
+
     ![model komentar](img/3.PNG)
 
 ## Membuat CRUD menggunakan GII
 
 -   Buka browser dan akses `/gii` dan pilih **CRUD Generator**
 -   Membuat CRUD **Berita**
+
     ![crud berita](img/4.PNG)
+
 -   Membuat CRUD **Kategori**
+
     ![crud kategori](img/5.PNG)
+
 -   Membuat CRUD **Komentar**
+
     ![crud komentar](img/6.PNG)
+
 -   Membuat CRUD **User**
+
     ![crud user](img/7.PNG)

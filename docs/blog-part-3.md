@@ -40,6 +40,7 @@
     -   `/user`
 -   Maka otomatis akan di redirect ke halaman login
 -   Jika kita sudah login maka halamannya akan tampil
+
     ![berita crud](img/10.PNG)
 
 ## Modifikasi Form Berita
@@ -70,7 +71,9 @@
     ```
 
 -   Dari modifikasi diatas, jika kita mengakses `/berita/create` akan tampil seperti ini
+
     ![form berita](img/11.PNG)
+
 -   Dengan momodifikasi form berita, maka kita harus mengedit beberapa validasi model **Berita** di direktori `common/models`
 -   Edit fungsi `rules`
     ```php
@@ -103,4 +106,5 @@
 
 -   Bisa kita lihat dari fungsi tersebut akan mengisi kolom dari `date_created` dan `id_user` secara otomatis tanpa input user
 -   Data yang tersimpan akan seperti ini
+
     ![berita database](img/14.PNG)
