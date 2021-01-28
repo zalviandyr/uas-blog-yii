@@ -21,6 +21,15 @@
     > php init
     ```
 
+-   Open **main-local** in `common/config`, to pretty url
+
+    ```php
+    'urlManager' => [
+        'enablePrettyUrl' => true,
+        'showScriptName' => false
+    ],
+    ```
+
 -   Open **main-local** in `common/config`, to setting database
     ```php
     'db' => [
